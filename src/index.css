@@ -23,6 +23,10 @@ a.navbar-brand {
   font-size: 30px;
   
 } 
+.card:is(:hover,:focus){
+  outline-offset: 3px;
+
+}
 
 
 /* search  */

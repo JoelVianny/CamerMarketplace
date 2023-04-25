@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Navbar, Nav} from "react-bootstrap";
 
+
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="md"   variant="blue" className="navbar shadow-lg">
-        <Container className="container flex flex-wrap items-center justify-between mx-auto">
+
+    <Navbar collapseOnSelect expand="md"   variant="blue" className="navbar shadow-lg fixed-top ">
+        <Container className="container-fluid flex flex-wrap items-center justify-between mx-auto">
         <Navbar.Brand href="#home" bg="text-black-50"><strong>Camer</strong>Market</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -19,6 +21,9 @@ const Header = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
+ 
+
   );
 };
 
